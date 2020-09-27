@@ -1,4 +1,4 @@
-<h1> Atividade jQuery </h1>
+<h1> <center>Atividade jQuery </center></h1>
 
 <h5 align = "center"><b>Uma interface que gera números aleatórios.</b></h5>
 
