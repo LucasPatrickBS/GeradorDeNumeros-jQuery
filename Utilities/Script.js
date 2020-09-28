@@ -11,14 +11,14 @@ function colocaNumeros(){
     soma = 0;
    
     for (var linha = 0; linha < matriz.length; linha++) {
+        matriz[linha] = new Array(
+            geraNumeroAleatorio(1,99),
+            geraNumeroAleatorio(1,99),
+            geraNumeroAleatorio(1,99),
+            geraNumeroAleatorio(1,99),
+            geraNumeroAleatorio(1,99)
+            );
        for (var coluna = 0; coluna < matriz.length; coluna++) {
-           matriz[linha] = new Array(
-           geraNumeroAleatorio(1,99),
-           geraNumeroAleatorio(1,99),
-           geraNumeroAleatorio(1,99),
-           geraNumeroAleatorio(1,99),
-           geraNumeroAleatorio(1,99)
-           );
            var numero = new Array(25);
            numero[i] = matriz[linha][coluna];
            soma += matriz[linha][coluna];
@@ -44,14 +44,14 @@ $(document).ready(function(){
     soma = 0;
    
     for (var linha = 0; linha < matriz.length; linha++) {
+        matriz[linha] = new Array(
+            geraNumeroAleatorio(1,99),
+            geraNumeroAleatorio(1,99),
+            geraNumeroAleatorio(1,99),
+            geraNumeroAleatorio(1,99),
+            geraNumeroAleatorio(1,99)
+            );
        for (var coluna = 0; coluna < matriz.length; coluna++) {
-           matriz[linha] = new Array(
-           geraNumeroAleatorio(1,99),
-           geraNumeroAleatorio(1,99),
-           geraNumeroAleatorio(1,99),
-           geraNumeroAleatorio(1,99),
-           geraNumeroAleatorio(1,99)
-           );
            var numero = new Array(25);
            numero[i] = matriz[linha][coluna];
            soma += matriz[linha][coluna];
